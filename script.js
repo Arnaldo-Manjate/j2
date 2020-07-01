@@ -23,7 +23,8 @@ Another code wars Challenges that totally works!!
 function getDrinkByProfession(param){
 
   const fix = param.toUpperCase();
-
+  
+  // use a switch case statement instaed of else if 
   if (fix === "JABRONI") {
     console.log("Patron Tequila");
   }else if (fix === "SCHOOL COUNSELOR") {
